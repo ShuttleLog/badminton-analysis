@@ -11,7 +11,7 @@
   <header class="bg-emerald-700 text-white shadow-md sticky top-0 z-10">
     <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
       <h1 class="text-lg font-bold tracking-tight">🏸 ShuttleLog 배드민턴 분석</h1>
-      <span id="syncStatusBadge" class="text-xs bg-emerald-800 px-2.5 py-1 rounded-full">클럽 운영용</span>
+      <span id="syncStatusBadge" class="text-xs bg-emerald-800 px-2.5 py-1 rounded-full">Myeong-ho Badminton Club</span>
     </div>
     <!-- 탭 네비게이션 -->
     <nav class="max-w-4xl mx-auto px-4 flex space-x-2 text-sm font-medium border-t border-emerald-600">
@@ -170,7 +170,7 @@
 
   <script>
     // Google Apps Script 웹 앱 주소 (/exec)를 아래 따옴표 안에 넣어주세요.
-    const API_URL = '여기에_배포한_웹_앱_URL_입력';
+    const API_URL = https://script.google.com/macros/s/AKfycbyeqa8DuPYdw6eM_f3BTfx9ALHIofsfDAHOtbUwW3xUKG5x4-3EVfLTcowsTh7Fyuyb/exec;
 
     // 초기 데이터 로드 (LocalStorage 캐시 + Google 스프레드시트 동기화)
     let players = JSON.parse(localStorage.getItem('sl_players') || '[]');
